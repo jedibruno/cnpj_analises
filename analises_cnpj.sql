@@ -1,3 +1,5 @@
+-- Tabela e colunas
+
 cnpj_cnae                          
     codigo, descricao
 cnpj_empresa                       

@@ -1,4 +1,4 @@
--- Preparo 
+-- Preparos 
 
 CREATE INDEX ON cnpj_socio (nome);
 
