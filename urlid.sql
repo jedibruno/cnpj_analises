@@ -2,11 +2,11 @@
 
 -- Exemplo de uso 
 
-ALTER TABLE cadastro_servidores ADD column servidor_uuid uuid;
+ALTER TABLE pep_09_2023 ADD column pep_uuid uuid;
 
-UPDATE cadastro_servidores SET servidor_uuid = person_uuid(REPLACE(REPLACE(cpf, '.', ''), '-', ''), nome);
+UPDATE pep_09_2023 SET pep_uuid = person_uuid(REPLACE(REPLACE(cpf, '.', ''), '-', ''), nome_pep);
 
-CREATE INDEX on cadastro_servidores (servidor_uuid);
+CREATE INDEX on pep_09_2023 (pep_uuid);
 
 
 -- Cria extensões
